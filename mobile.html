@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+	<html>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel='stylesheet' href='css/mobile.css' />
+
+	<head>
+		<title>Calculate your Height</title>
+		
+	</head>
+
+	<body style = "font-family: verdana;" >
+
+		<header>
+
+
+						<nav>
+				<div class="titleBox">
+  				<h3 style = "font-family: myFont; letter-spacing: 5px; color: #2c3441">CALCULATE YOUR HEIGHT</h3>
+				</div>
+				
+				<ul>
+					<li><h5><a href="#Home" >Home</a></h5></li>
+					<li><h5>Our Math</h5></li>
+					<li><h5>Contact</h5></li>
+				</ul>
+			</nav>
+		</header>
+			<script>
+			function calc() {
+  				var int = document.getElementById("input1").value;
+  				document.getElementById("first").innerHTML = int;
+  				// alert("var was " + int);
+
+  				var length = 8 * Math.sqrt(3);
+  				document.getElementById("second").innerHTML = length;
+  				// alert("var lenght was " + length);
+
+  				var w  = length - int;
+  				document.getElementById("third").innerHTML = w;
+  				// alert("w is " + w);
+
+  				var angle = 30 * Math.PI /180;
+  				document.getElementById("fourth").innerHTML = angle;
+  				// alert("angle was " + angle);
+
+  				var x = Math.tan(angle);
+  				document.getElementById("fifth").innerHTML = x;
+  				// alert("x was " + x);
+
+  				var y = x*w;
+  				document.getElementById("sixth").innerHTML = y;
+
+  				// alert('Your answer is ' + y);
+
+  			}
+
+  			
+			</script>
+			<script>
+			function clearText(){
+				y = 0
+				document.getElementById("sixth").innerHTML = y
+			}
+			</script>
+	<div class = "calculateDistance">	
+	<div class = "row">
+
+
+				<input id = "input1" type = "number" step = "0.5" min = "0" max = "13.5" placeholder="Distance from Wall">
+				<br>
+				<button class = "buttons" onclick="calc()" id = "button1"><b>Calculate</b></button>
+				<button class = "buttons" onclick="input1.value = ''; clearText()" id = "button2"><b>Clear</b></button>
+
+		</div>
+		<div class = "row">
+			<p>Your results will appear below:</p>
+			<br>
+			<p id = "sixth"></p>
+		</div>
+	</div>
+	</div>
+			
+
+			<p id="first"></p>
+			<p id = "second"></p>
+			<p id="third"></p>
+			<p id = "fourth"></p>
+			<p id="fifth"></p>
+	
+		
+		<footer style = "background-color: gray;">
+			<ul>
+
+					<li><b>Jackson Coyle, Zain Schwartz, Dorian Rebut, and Sara Simon, 2020</b></li>
+			</ul> 
+			
+			
+
+		</footer>
+	</body>
+	</html>
