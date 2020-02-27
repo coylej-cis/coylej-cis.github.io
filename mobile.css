@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .titleBox {
 	background-color: #c96b4e;
@@ -105,34 +106,12 @@ section{
 	flex-direction: row;
 }
 
+=======
+>>>>>>> parent of 809764b... padding fix
 ul{
 	text-align: center;
 	list-style: inside;
-
-
-li{
-	display: inline-block;
-	padding-right: 30px;
-	margin-bottom: 10px;
-	list-style-type: none;
 }
 
-footer{
-	background: #565656;
-	padding: 10px 20px;
-	position: fixed;
-  	top: auto;
-  	bottom: 0;
-  	width: 100%;
-  	display: inline-block;
- }
 
-h3{
-	text-align: center;
-	margin: 0px;
-	padding: 25px 0px 5px 0px;
-}
 			
-p{
-	color: blue;
-}
