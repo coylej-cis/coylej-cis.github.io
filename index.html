@@ -16,15 +16,19 @@
 		<header>
 
 
-						<nav>
+				<nav>
+
 				<div class="titleBox">
+				<a name="home"></a>
   				<h3 style = "font-family: myFont; letter-spacing: 5px; color: #2c3441">CALCULATE YOUR HEIGHT</h3>
 				</div>
 				
 				<ul>
-					<li><h5><a href="#Home" >Home</a></h5></li>
+					<li><h5><a href="#home" >Home</a></h5></li>
+					<li><h5><a href="#calculator" >Calculator</a></h5></li>
 					<li><h5>Our Math</h5></li>
-					<li><h5>Contact</h5></li>
+					<li><h5>Math Review</h5></li>
+					<li><h5>About us</h5></li>
 				</ul>
 			</nav>
 		</header>
@@ -62,11 +66,14 @@
 			<script>
 			function clearText(){
 				y = 0
+				ur="You are approximately"
 				document.getElementById("sixth").innerHTML = y
+
 			}
 			</script>
+	<a name = "calculator"></a>
 	<div class = "calculateDistance">	
-
+	<h3 align='center'>Calculate your Height</h3>
 	<div class = "row">
 		<div class = "column left" >
 
@@ -76,19 +83,38 @@
 				<button class = "buttons" onclick="input1.value = ''; clearText()" id = "button2"><b>Clear</b></button>
 
 		</div>
+
 		<div class = "column right">
-			<p>Your results will appear below:</p>
+			<p id = "seventh">Your results will appear below:</p>
 			<br>
 			<p id = "sixth"></p>
 		</div>
 	</div>
 	</div>
 	<div class = "calculateDistance">
-		<p>1</p>
-		<p>1</p>
-		<p>1</p>
-		<p>1</p>
+		<h3 align = 'center'>How Our Math Works</h3>
+		<p>placeholder</p>
+		<p>placeholder</p>
+		<p>placeholder</p>
+		<p>placeholder</p>
 	</div>	
+	<div class = "calculateDistance">
+		<h3 align = 'center'>Another Way To Solve This Problem</h3>
+		<p>placeholder</p>
+		<p>placeholder</p>
+		<p>placeholder</p>
+		<p>placeholder</p>
+	</div>	
+	<div class = "calculateDistance">
+		<h3 align = 'center'>A Review of Some Important Topics
+		Discussed on this Page</h3>
+		<p>placeholder</p>
+		<p>placeholder</p>
+		<p>placeholder</p>
+		<p>placeholder</p>
+	</div>	
+			
+			
 			
 
 			<p id="first"></p>
@@ -96,9 +122,11 @@
 			<p id="third"></p>
 			<p id = "fourth"></p>
 			<p id="fifth"></p>
+	<div class="clear"></div>
+	<div id="footer">FOOTER CONTENT</div>
 	
 		
-		<footer style = "background-color: gray;">
+		<footer>
 			<ul>
 
 					<li><b>Jackson Coyle, Zain Schwartz, Dorian Rebut, and Sara Simon, 2020</b></li>
