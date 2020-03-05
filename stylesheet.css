@@ -34,8 +34,8 @@
   	display: inline-block;
 }
 
-* {
-  	box-sizing: border-box;
+.module {
+  scroll-behavior: [ auto | smooth ];
 }
 
 .column {
@@ -60,6 +60,10 @@
   	content: "";
   	display: table;
   	clear: both;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 		
 @font-face {
