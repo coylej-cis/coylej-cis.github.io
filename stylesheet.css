@@ -12,7 +12,7 @@
 .calculateDistance{
 	background-color: #808080;
 	margin:0px auto;
-	margin-top: 10px;
+	margin-top: 20px;
 	border-radius: 6px;
 	padding: 5px;
 	width: 80%;
@@ -127,7 +127,7 @@ li{
 footer{
 	background: #2c3441;
 	padding-top: 10px;
-	padding-bottom: 40px;
+	padding-bottom: 15px;
 	position: fixed;
   	top: auto;
   	bottom: 0;
@@ -143,4 +143,5 @@ h3{
 			
 p{
 	color: white;
+	padding: 0px 60px 0px 60px;
 }
